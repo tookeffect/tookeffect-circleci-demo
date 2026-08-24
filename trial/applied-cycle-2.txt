@@ -1,0 +1,5 @@
+TookEffect APPLIED lifecycle verification
+
+This disposable file exists only to test the Observe-Only verification cycle:
+open PR -> NOT_APPLIED
+merged PR -> APPLIED
