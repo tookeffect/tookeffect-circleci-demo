@@ -1,0 +1,19 @@
+version: 2.1
+
+jobs:
+  claim:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - run:
+          name: Record exact CircleCI claim
+          command: |
+            echo "CircleCI PR head claim: ${CIRCLE_SHA1}"
+            echo "Repository: ${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}"
+            echo "TookEffect verification is performed separately against GitHub authoritative state."
+
+workflows:
+  demo:
+    jobs:
+      - claim
