@@ -1,0 +1,3 @@
+TookEffect × CircleCI disposable verification fixture.
+
+This change exists only to provide a real pull request with an immutable head SHA that CircleCI can claim and TookEffect can independently verify against GitHub.
