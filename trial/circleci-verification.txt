@@ -1,0 +1,4 @@
+TookEffect CircleCI verification trial
+
+This repository is a disposable verification fixture.
+It contains no TookEffect product source code.
